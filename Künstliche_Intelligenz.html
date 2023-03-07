@@ -1,0 +1,420 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--Navigationsleiste-->
+    <div id="mySidenav" class="sidenav">
+      <!--Ermöglicht, dass man die Navigationsleiste mit dem "x" wieder schließen kann-->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Startseite.html">Home</a>
+  <a href="Künstliche_Intelligenz.html">Künstliche Intelligenz</a>
+  <a href="Automatisierung-von-Arbeit.html">Automatisierung von Arbeit</a>
+  <a href="Datensicherheit.html">Datensicherheit</a>
+  <a href="Probleme-von-Google.html">Probleme von Google</a>
+</div>
+<!--Ändert die Größe der Drei Striche und "Open"-->
+    <div class="open">
+      <!--Wenn man die drei Striche auswählt, öffnet sich die Navigationsleiste-->
+<span onclick="openNav()">☰ Open</span>
+    </div>
+<!--Funktion zum öffnen und schliessen der Navigationsleiste-->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<!--Eine Überschrift der zweiten Kategorie (zweite größe)-->
+    <h2>Künstliche Intelligenz</h2>
+    <!--Einleitung ("MyClass2 ändert lediglich Größe")-->
+    <p class="myClass2"> Bei richtiger Anwendung kann künstliche Intelligenz (KI) das Leben vieler Menschen positiv beeinflussen. Damit dieses Ziel erreicht werden kann, müssen Politik, Wirtschaft, Wissenschaft und Gesellschaft ungeklärte Fragen gemeinsam diskutieren und sowohl Chancen als auch Risiken des technologischen Fortschritts untersuchen. Um die technologische Entwicklung aus ethischer, sozialer und rechtlicher Sicht verstehen zu können, ist eine genaue Befassung mit dem Thema wichtiger denn je. Erst dann kann gesagt werden, was verwendet werden kann bzw. soll und vor allem wo man klare Grenzen setzen muss. Bei allen noch offenstehenden Fragen ist eines für uns von entscheidender Bedeutung: Künstliche Intelligenz muss vom Menschen konzipiert werden. Die Technik soll uns nämlich unterstützen und nicht entfremden.</p>
+    <!--Navigation zu Unterthemen-->
+<div id="navigation">
+<!--Listenelement-->
+    <ul class="myClass2">
+      <!--Verlinkung zu den unterschiedlichen "sections"-->
+      <a href="#Was">
+      <li>Was ist künstliche Intelligenz?</li>
+      </a>
+      <a href="#Geschichte">
+      <li>Die Geschichte der künstlichen Intelligenz</li>
+      </a>
+      <a href="#Wie">
+      <li>Wie funktioniert künstliche Intelligenz?</li>
+      </a>
+      <a href="#Anwendungsgebiete">
+      <li>Anwendungsgebiete der künstlichen Intelligenz</li>
+      </a>
+      <a href="#Probleme">
+	    <li>Probleme der künstlichen Intelligenz</li>
+      </a>
+      <a href="#Zukunft">
+	    <li>Die Zukunft mit künstlicher Intelligenz</li>
+      </a>
+      <a href="#Glossar">
+      <li>Glossar</li>
+      </a>
+      <a href="#Quellenangaben">
+        <li>Quellenangaben</li>
+      </a>
+    </ul>
+ </div>
+<!--Bild soll in die Mitte-->
+ <div class="center">
+   <!--Einfügung von einem Bild (alt=Text wenn das Bild nicht geladen werden konnte ; width=Breite)-->
+    <img src="https://static1.bmbfcluster.de/1/0/8/6/9_c27c911943868aa/10869abg_9ddaa149753ea1b.jpg" width=600px alt="Das Bild konnte nicht geladen werden" >
+    </div>
+    <!--"Section" ist dafür dar, damit die Navigationsleiste weiß, worauf sie verlinken soll (wo die ID zugewiesen ist)-->
+    <section id="Was">
+      <!--Überschrift der dritten Kategorie (drittgrößte)-->
+    <h3>Was ist künstliche Intelligenz? (Q2,Q3)</h3>
+    <!--p=Absatz-->
+    <p>
+      Künstliche Intelligenz (KI) ist ein Zweig der Informatik, der sich der Automatisierung von intelligentem Verhalten widmet. Die Technologie basiert hier auf der Simulation von Artefakten, die normalerweise von einem Computerprogramm auf einem Computer ausgeführt werden. Die Definition des Begriffs ist schwierig eindeutig zu klären. Da auch der Intelligenz-Begriff nicht genau definiert ist gibt es verschiedene Ansichten zur Definition von künstlicher Intelligenz. Die allgemeine Definition des Begriffs bezieht sich hauptsächlich auf die Nachahmung des menschlichen Entscheidungsverhaltens. Die spezifische Programmierung von Computern soll schwierige Probleme auf einfache Weise lösen. In der Praxis wird intelligentes Verhalten durch einfache <a href="#Algorithmen">Algorithmen</a> imitiert. </p> <p>
+Bei der theoretischen Betrachtung spricht man von künstlicher Intelligenz, wenn Computer Probleme lösen, für deren Lösung sonst menschliche Intelligenz erforderlich ist. Grundlegend wird zwischen starker und schwacher KI unterschieden. Während die starke KI das gesamte menschliche Denken mechanisch umsetzen soll, wird schwache KI verwendet, um bestimmte Anwendungsprobleme zu lösen. Dementsprechend soll sie Menschen im Denkprozess unterstützen. Darüber hinaus ist Lernen eine der Kernkompetenz einer jeder KI und muss schon zu Beginn erreicht werden. Obendrein müssen künstliche Intelligenzen (KI) in der Lage sein, mit Unsicherheiten umzugehen.</p> <p>
+Alles in einem sollte eine schwache KI Grundprinzipien der Mathematik und Informatik verwenden, um ein intelligentes Verhalten zu simulieren. Bisher ist die Entwicklung einer starken KI aufgrund des aktuellen Forschungsstandes und grundlegender philosophischer Fragen gescheitert, da solche Systeme dem Menschen sehr ähnlich sein müssten.
+    </p>
+ </section>
+<section id="Geschichte">
+	<h3>Die Geschichte der künstlichen Intelligenz (Q4)</h3>
+	<p>Bereits seit Mitte des 20. Jahrhunderts forschen viele Wissenschaftler an der künstlichen Intelligenz. Gemeinsam verfolgen sie ein Ziel, und zwar Maschinen zu entwickeln, welche ebenso wie Menschen denken und aus verschiedenen Gegebenheiten lernen können. Im folgenden Text werde ich Ihnen einen Überblick über die wichtigsten Ereignisse in der Technologie wiedergeben, welche zu künstlicher Intelligenz geführt haben, wie wir sie heute kennen.</p>
+<!--Text soll fett geschrieben werden-->
+    <strong>1936: Turingmaschine</strong>
+	<p>Alan Turing war ein britischer Mathematiker, der durch seine Theorien bewiesen hat, dass man eine Rechenmaschine (die sogenannte Turingmaschine) bauen könnte, die <a href=#kognitiv> kognitive </a> Prozesse durchführt, unter der Voraussetzung, dass sich diese in mehreren Einzelschritten zerlegen lassen und mithilfe eines <a href="#Algorithmen">Algorithmus</a> darstellen können.</p>
+    <strong>1956: Der Begriff „KI“ entsteht</strong>
+	<p>Im Sommer 1956 findet ein Treffen am Dartmouth College in New Hampshire statt, zu dem mehrere Wissenschaftler eingeladen sind. Alle sind sich sicher, dass das Lernen und weitere menschliche Intelligenzmerkmale durchaus auch von Maschinen nachgeahmt werden können. Dafür schlägt der Programmierer John McCarthy den Begriff „Künstliche Intelligenz“ vor, der, wie sich zeigte, akzeptiert wurde. Obendrein wird mit dem sogenannten „Logic Theorist“, welcher mehrere dutzend mathematische Lehrsätze beweisen kann, während der Konferenz das erste KI-Programm geschrieben.</p>
+	<strong>1966: Der erste Chatbot</strong>
+	<p>Der deutsch-amerikanische Informatiker Joseph Weizenbaum erfindet während seiner Zeit als Professor am Massachusetts of Technology (MIT) ein Computerprogramm, das in der Lage ist mit Menschen zu kommunizieren. Er nennt es „ELIZA“. Mittels <a href="#Skript">Skripten</a> simuliert „ELIZA“ unterschiedliche Gesprächspartner wie beispielsweise einen Psychotherapeuten. Obwohl „ELIZA“ eine Sensation darstellt, war Weizenbaum verwundert, da er mit einfachen Geräten die Illusion einer menschlichen Person entwickelt hat.</p>
+	<strong>1972: KI erreicht die Medizin</strong>
+	<p>Ted Shortliffe erfindet an der Standford University, das<!--Verlinkung auf die jeweilige Stelle des Glossars--> <a href="#Expertensystem">Expertensystem</a> „MYCIN“, mit dem die künstliche Intelligenz zum ersten Mal den Weg in die Medizin findet. Dort wird es für die Behandlung von Krankheiten genutzt.</p>
+	<strong>1986: „NETtalk“ spricht</strong>
+	<p>Mit dem Programm „NETtalk“ erlangt ein Computer zum ersten Mal die Fähigkeit zu Sprechen. Dieser Durchbruch wurde durch Terrence J. Sejnowski und Charles Rosenberg ermöglicht, welche dazu die Eingabe von Beispielsätzen und <a href="#Phonem">Phonem</a>ketten nutzen. Dadurch war „NETtalk“ in der Lage einzelne Wörter zu lesen und diese richtig auszusprechen und durch Lernen für ihn erstmals unbekannte Wörter zu verstehen. Mit diesen Fähigkeiten gilt es als eins der ältesten <a href="#Neuronale-Netze">neuronalen Netzen</a>, es ähnelt also stark dem Gehirn eines Menschen.</p>
+	<strong>1997: Schachweltmeister wird von Computer besiegt</strong>
+	<p>Die von der Firma IBM programmierte Suchmaschine mit künstlicher Intelligenz namens „Deep Blue“, schafft es den damaligen Schachweltmeister Garry Kasparow in einer Partie zu schlagen. Dieser Augenblick ist deshalb in die Geschichte eingegangen, da Schach spielen zuvor von Menschen dominiert wurde und es nun eine Maschine geschafft hat dies zu ändern. Es gibt allerdings einige Kritiker, die da skeptisch sind, da „Deep Blue“ nicht durch die Nutzung von kognitiver Intelligenz gewonnen habe, sondern „lediglich“ mögliche Züge berechnet hätte.</p>
+  <!--Video soll in die Mitte-->
+ <div class="center">
+   <!--Einfügung von Youtube-Video-->
+  <iframe width="600" height="337,5" src="https://www.youtube.com/embed/KF6sLCeBj0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <br>
+	<strong>2011: KI erstmals im Alltag</strong>
+  <p>Durch Verbesserungen der Technologien in der <a href="#Software">Soft-</a> und <a href="#Hardware">Hardware</a> schafft die künstliche Intelligenz den Weg ins alltägliche Leben. Weitere Faktoren, die eine wichtige Rolle spielten, waren beispielsweise stärkere Prozessoren und Grafikkarten in Computern, Smartphones und Tablets, da ein Ottonormal-Verbraucher so Programme mit künstlicher Intelligenz nutzen konnte. Durch Sprachassistenten erlangt die KI große Beliebtheit bei vielen Menschen. Diese stammen meist aus den Unternehmen Apple mit „Siri“, Microsoft mit „Cortana“ und dem „Echo-Dot“, der aus dem Hause Amazon stammt.</p>
+	<strong>2011: KI gewinnt Quizshow</strong>
+	<p>2011 geschieht etwas außergewöhnliches in einer US-amerikanischen Quizshow. Ein Computerprogramm mit dem Namen „Watson“ erscheint als ein animiertes Symbol auf einem Bildschirm und setzt sich ohne Probleme gegenüber den anderen menschlichen Kandidaten durch. Durch dieses Ereignis zeigt „Watson“ nicht nur, dass er Sprachen versteht, sondern auch noch binnen wenigen Sekunden auf schwierige Fragen eine Antwort findet.</p>
+  <div class="center">
+<img src="https://images.techhive.com/images/article/2015/09/ibm-watson-100616825-large.jpg" alt="Das Bild konnte nicht geladen werden" width="600px">
+  </div>
+	<strong>2018: KI debattiert und vereinbart einen Friseurtermin</strong>
+	<p>Hierbei handelt es sich um zwei Ereignisse: Auf einer Konferenz stellt Google ihre KI „Duplex“ vor und demonstriert sie indem diese in einem alltäglichen Ton ein Friseurtermin vereinbart, ohne dass die Person am Telefon mitbekommt, dass sie gar nicht mit einem Menschen spricht. Nur einige Wochen darauf, tritt im Juni „Project Debater“ zu einem Rededuell auf, bei dem dieser mit zwei Debattiermeistern über knifflige Thematiken diskutiert und dabei erstaunlich gut abschneidet. Beide Beispiele zeigen, wie leistungsfähig die künstliche Intelligenz schon in heutigen Tagen ist.</p>
+</section>
+<section id="Wie">
+<h3>Wie funktioniert künstliche Intelligenz? (Q5)</h3>
+<p>Funktionsweise einer künstlichen Intelligenz beruht auf sogenannte „künstliche <a href="#Neuronale-Netze">neuronale Netze</a>“. Mithilfe diesen Programmen wird das menschliche Gehirn in allerlei Hinsicht imitiert.
+    </p> <p>Um die Funktionsweise einer künstlichen Intelligenz zu verstehen, muss man zuerst wissen wie unser Gehirn arbeitet. Der menschliche Körper besteht aus vielen Nervenzellen. Diese werden durch sogenannte Neuronen miteinander verknüpft. Ein Mensch hat im Durchschnitt 20 Milliarden Neuronen und all diese sind an mehreren Orten miteinander verbunden, was man dann Synapsen nennt. Die Synapsen bilden ein hoch kompliziertes System, sodass das Gehirn Informationen verarbeiten kann, wie beispielsweise das Lernen. In der Theorie ist dementsprechend das Gehirn viel effizienter als jegliche Computer, jedoch vergleichsweise langsam.</p>
+   <p>Dieses System der Informationsverarbeitung des Gehirns werden von Computer durch die bereits erwähnten neuronalen Netze nachgeahmt. Auf der einen Seite, dem Input, werden Informationen eingetragen, dann verarbeitet und auf der anderen Seite als Output wieder ausgegeben. Diese Systeme werden durch sogenannte <a href="#Algorithmen">Algorithmen</a> aufgebaut.
+<div class="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Neural_network.svg/1280px-Neural_network.svg.png" width="600px" alt="Das Bild konnte nicht geladen werden">
+  </div>
+</p>
+</section>
+<section id="Anwendungsgebiete">
+<h3>Anwendungsgebiete der künstliche Intelligenz (Q6)</h3>
+<p>Wie bereits in „Was ist künstliche Intelligenz“ erwähnt, gibt es bis heute keine allgemeine (starke) künstliche Intelligenz. Allerdings gibt es heutzutage immer mehr schwache KIs, die in bestimmten Anwendungsgebieten gut sind. Heutzutage haben sich die Menschen so sehr an die alltäglichen künstlichen Intelligenzen gewöhnt, dass viele es nicht mehr als intelligent betrachten. Dieser Effekt trägt den Namen „KI-Effekt“. Der folgende Artikel handelt von einigen der wichtigsten Anwendungen von künstlicher Intelligenz im Alltag.
+</p>
+<p> <strong>1. Virtuelle Assistenten und Chatbots</strong>
+</p>
+<p>Ein gutes Beispiel für virtuelle Assistenten sind Alexa, Siri, Cortana und der Google-Assistant. Sie alle lassen sich einfach über Sprachsteuerung bedienen, womit man z.B. Musik spielen oder das Licht ein- und ausschalten kann. Dabei wandeln die Systeme die Geräusche automatisch in Wörter um und versuchen daran eine Anweisung zu erkennen.
+</p>
+<div class="center">
+  <img src="https://fscl01.fonpit.de/userfiles/7640001/image/Amazon-Echo/AndroidPIT-Amazon-Echo-Dot-Light.jpg" alt="Das Bild konnte nicht geladen werden" width="600px">
+  </div>
+<p>Chatbots werden heutzutage vor allem bei Unternehmen im Support eingesetzt, wo diese häufig auftretenden Problemen der Kunden entgegenkommen und Arbeiter somit unterstützen.
+</p>
+<p> <strong>2. Robotik</strong>
+</p>
+<p>Damit „lebhafte“ Roboter in für sie unbekannten Gebieten arbeiten können, muss man der Forschung noch einige Zeit lassen. In Umgebungen, die für sie vertraut sind, sind sie hingegen sehr gut geeignet und übernehmen beispielsweise den Großteil der Fertigungsprozesse bei Autos. Auch in der <a href="#Logistik">Logistik</a> werden sie bereits von Unternehmen wie Amazon eingesetzt, wo sie das Warenhaus bedienen. In einigen (virtuellen) Gebieten sind sie uns sogar schon Meilen voraus, z.B. in Schach, Go oder Videospielen.
+</p>
+<div class="center">
+<img src="https://miro.medium.com/max/4096/0*W2lJy4pYnxBVdKEK" alt="Das Bild konnte nicht geladen werden" width="600px">
+  </div>
+<p> <strong>3. Suchmaschinen</strong>
+</p>
+<p>Auch wenn es vielen vielleicht nicht bewusst ist, steckt in Suchmaschinen auch künstliche Intelligenz. Durch ihre Hilfe werden einem bequem die wichtigsten zur Suche passenden Websites des Internets angezeigt.
+</p>
+<p> <strong>4. Empfehlungsdienste</strong>
+</p>
+<p>Der eben genannte Vorteil, die wichtigsten Informationen zu erhalten, gilt auch für Empfehlungsdienste wie beispielsweise Prime Video oder Spotify. Sie allein sind dafür verantwortlich, was für Inhalte uns in sozialen Netzwerken empfohlen werden.
+</p>
+  <div class="center">
+  <img src="https://i.computer-bild.de/imgs/6/3/7/5/8/7/7/Amazon-Prime-Video-im-Test-658x370-639fe1a81bd4b857.jpg" alt="Das Bild konnte nicht geladen werden" width="600px">
+  </div>
+<p> <strong>5. Gesichtserkennung</strong>
+</p>
+<p>In den letzten Jahren wurde viel an der Gesichtserkennung gearbeitet, sodass heute ein Großteil der Smartphones mit diesem Feature ausgestattet ist. Dies wird u.a. dadurch bewerkstelligt, dass sie lernen, automatisch zu fokussieren oder sich bewegenden Gegenständen zu folgen.
+   </p> <p>Sogar bei der Bekämpfung des Corona-Virus wird die Technologie eingesetzt. In einigen Städten wird durch die bereits vorhandenen Überwachungskameras geschaut, ob die Sicherheitsabstände eingehalten werden.
+</p>
+  <div class="center">
+    <!--Einfügung von Video-->
+  <iframe width="600" height="337,5" src="https://www.youtube.com/embed/15iIV1Lff-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+<p> <strong>6. Spam-Filter</strong>
+</p>
+<p>Eine Untersuchung zeigte, dass die Hälfte aller verschickten Emails Spam ist. Durch intelligente Spam-Filter von Unternehmen wie Google oder Microsoft werden nahezu alle Spam-Emails herausgefiltert und entfernt (bzw. in einen abgetrennten Ordner gepackt).
+</p>
+<p> <strong>7. Cyber-Sicherheit</strong>
+</p>
+<p>Auch in der Cyber-Sicherheit gewinnt künstliche Intelligenz immer mehr Aufmerksamkeit. Wie auch übliche Antivirenprogramme kann solch ein Programm <a href="#Maleware">Malware</a> identifizieren. Der große Unterschied ist allerdings, dass die künstliche Intelligenz mithilfe des <a href="#Machine-Learning">„Machinche Learning“</a> auch für sie noch unbekannte Programme nach ihrer Sicherheit bewerten kann.
+</p>
+<p> <strong>8. Mobilität</strong>
+</p>
+<p>Ein Thema, über das in der letzten Zeit sehr kritisch in den Nachrichten diskutiert wurde, sind selbstfahrende Autos. Denn obwohl man bereits sehr fortgeschritten mit der Forschung ist, weisen selbstfahrende Autos von Tesla und Co. immer noch Probleme auf. Fakt ist, bereits heute revolutioniert die KI die Automobilindustrie durch Navigationssysteme und unterstützt den Menschen beim Einparken oder Einhalten des Sicherheitsabstandes durch verschiedene Assistenten.
+</p>
+<div class="center">
+<img src="https://img.welt.de/img/wirtschaft/mobile145015198/7331353487-ci16x9-w1200/2015-Daimler-AG-Alle-Rechte-vorbehalt-5.jpg" alt="Das Bild konnte nicht geladen werden" width="600px">
+  </div>
+<p> <strong>9. Einkaufen</strong>
+</p>
+<p>Amazon Go ist ein Supermarkt, der mithilfe von künstlicher Intelligenz eine höhere Effizienz und kassenloses Einkaufen ermöglicht. Damit dieses Konzept einwandfrei funktioniert, bedarf es noch einer Menge Arbeit, allerdings erscheint es als eine durchaus mögliche Zukunft.
+</p>
+  <div class="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Amazon_Go_in_Seattle%2C_December_2016.jpg" width="600px" alt="Das Bild konnte nicht geladen werden">
+  </div>
+<p> <strong>10. Marketing und Vertrieb</strong>
+</p>
+  <p>Sowohl im Marketing, Vertrieb als auch im <a href="#Customer-Relationship-Managment">CRM</a> kann künstliche Intelligenz eine große Hilfe sein: Bei „Personalisierung im Marketing“ geht es vor allem darum, Präferenzen und Kaufverhalten von Kunden mitzubekommen, damit man automatisch ein richtiges Angebot zur gegebenen Zeit vollzieht.
+  </p> <p>Durch Prognosen mittels Daten des Kaufverhaltens ist es möglich „intelligente Marketingkampagnen an Kunden mit hohem Umsatzpotential und gezieltes <a href="#Cross-Selling">"Cross-</a> und <a href="#Up-Selling">Upselling"</a> (Q6) auszuspielen. Sogenannte <a href="#Churn-Prognose">Churn-Prognosen</a> machen genaue Kündigerpräventionen möglich. Die Chance viele Kundenfeedbacks aus Foren verarbeiten zu können, um den Kundenservice zu verbessern, ermöglicht die <a href="#Sentiment-Analysis">Sentiment-Analysis</a>.
+</p>
+</section>
+<section id="Probleme">
+<h3>Probleme der künstlichen Intelligenz (Q7)</h3>
+<p> Die Entwicklung der künstlichen Intelligenz hat sich in den letzten Jahren stark verbessert. Sie wird heutzutage in fast jedem möglichen Bereich (siehe „Anwendungsgebiete der künstlichen Intelligenz“) eingesetzt und übertrifft die Menschen dabei in vielerlei Hinsichten. Trotz all dem gibt es bei der künstlichen Intelligenz noch Forschungsbedarf, wobei viele Wissenschaftler der Meinung sind, dass dies keine so gute Idee wäre. Was für Probleme sie dabei in der KI sehen erfahrt ihr hier.
+</p>
+<p> <strong>1.	KI braucht große Datenmengen, um zu funktionieren</strong>
+</p>
+<p>Im Jahr 2015 veröffentlichte sowohl Google als auch Microsoft ihren <a href="#Algorithmen">Algorithmus</a>, der mit dem Lernen von Menschen Objekte in Bildern erkennen kann. Für dieses Lehrverfahren benötigte man allerdings 1,2 Millionen Bilder, welche die Maschine zuvor „einscannen“ musste, wohingegen ein gewöhnlicher Mensch nur ein Beispiel benötigt.
+  </p> <p>Auch Neil Lawrence, ein Professor für <a href="#Machine-Learning">„Machine-Learning“</a> an der Stanford University unterstützt dies und stellt die These auf, dass eine KI zum Erlernen der Bilderkennung 100.000-mal mehr Informationen erhalten muss als ein Mensch. Obendrein erzählt er, dass alle funktionierenden Systeme Zugang zu einer enormen Datenmenge besitzen, wie beispielsweise Facebook oder Google.
+   </p> <P>Das Problem dabei ist, dass man nicht in jedem Fachbereich zu einer so große Menge an Daten Zugang besitzt. Als Beispiel könnte man hier die Medizin nehmen, welche KI u.a. zur Erkennung von Tumoren auf Röntgenbildern verwendet. Es ist allerdings unmöglich genug Informationen zu sammeln, um präzise Ergebnisse zu liefern. Laut Lawrence ist es die einzige Lösung ressourcenarme Algorithmen zu verwenden, welche nicht ansatzweise so viele Daten benötigen.
+</p>
+<p> <strong>2.	KI ist nicht multitaskingfähig</strong>
+</p>
+  <p>Ein weiteres Problem ist, dass die Algorithmen der künstlichen Intelligenz zurzeit lediglich eine Aufgabe auf einmal lösen können. Es gibt zwar schon Algorithmen, die z.B. Katzen erkennen können oder in der Lage sind einfache Spiele zu spielen, aber keine vermögen, diese gleichzeitig auszuführen. Der Google DeepMind-Forscher Raia Hadsell behauptet, dass <a href="#Neuronale-Netze">neuronale-Netze</a> ihre Fähigkeiten nicht unbegrenzt erweitern könnten. Aufgrund der Größe ihres Netzes sei es unmöglich, ab einem bestimmten Zeitpunkt auf die fortlaufenden Änderungen der Algorithmen reagieren zu können.
+    </p> <p>Dieses Phänomen bezeichnet man auch als „katastrophales Vergessen“ und funktioniert wie folgt: Angenommen, einer KI wurde bereits beigebracht, die Gesichter von Menschen zu erkennen. Wenn man nun von ihr verlangen würde, eine Kuh zu erkennen, würde sie die Gesichtserkennung löschen, um erneut Speicherplatz für neue Daten zu haben. Zum Zwecke der Mustererkennung verwenden neuronale Netze Millionen von mathematischen Gleichungen, welche so miteinander verknüpft sind, dass sie bei nur minimalen Änderungen an der ihr aufgegebenen Aufgabe versagen.
+</p>
+<p> <strong>3.	Wir verstehen die Funktionsweise von KI nicht</strong>
+</p>
+<p>2016 fand ein Experiment am Virginia Polytechnic Institute statt, womit Forscher herausfinden wollten, worauf sich die KI beim Lösen einer Aufgabe fokussiert. Hierfür wurde der KI ein Foto eines Schlafzimmers gezeigt und gefragt, was die Fenster bedecke. Das Ergebnis zeigte, dass sich die KI nicht die Fenster selbst anschaute, sondern zuerst den Boden und dort ein Bett fand. Als Antwort gab sie „Jalousien bedecken das Fenster“.
+    </p> <p>Die Antwort war zwar richtig, aber das lag eher daran, dass es zu wenig Informationen gegeben hatte. Durch das Erkennen des Bettes, wusste die KI, das es sich um ein Schlafzimmer handelt und antwortete deshalb „Jalousien“, da sie zuvor gelernt hatte, dass diese üblich für ein Schlafzimmer sind. Was dieses Beispiel verdeutlichen soll ist, dass es unmöglich ist den Denkprozess einer KI zu verstehen/vorhersagen.
+<div class="center">
+<img src="https://www.infopulse.com/files/images/pic1.jpg" alt="Das Bild konnte nicht geladen werden" width="600px">
+  </div>
+    </p> <p>Seit einer Gesetzgebung, die ab 2018 gilt, ist die Europäische Union in der Lage, Unternehmen zu zwingen die Funktionsweise der neuronalen Netze ihren Kunden zu erläutern. Dazu äußerte Will Knight, ein leitender Redakteur der MIT-Technology-Review folgendes: „Das könnte unmöglich sein, auch in Bezug auf Systeme, wie Apps und Webseiten, die relativ einfach von der Oberfläche her zu sein scheinen und <a href="#Deep-Learning">tiefes Lernen</a> verwenden, um Anzeigen zu platzieren oder Songs zu empfehlen. Die Computer, die diese Dienste ausführen, haben sich selbst programmiert und sie haben es auf eine Art und Weise gemacht, die wir nicht verstehen können. Auch die Ingenieure, die diese Apps entwickelt haben, können ihr Verhalten nicht ganz erklären“.
+</p>
+<p> <strong>4.	Könnte KI zu weit gehen?</strong>
+</p>
+<p>Viele Wissenschaftler und Unternehmer heutzutage sehen der möglichen Macht künstlicher Intelligenz kritisch entgegen. Auch Elon Musk, CEO von SpaceX und Tesla gehört zu ihnen und berichtete 2014, dass die KI „unsere größte existenzielle Bedrohung“ sei. Seine Befürchtung ist es, dass die künstliche Intelligenz uns bald schon überholt und man sie nicht mehr kontrollieren kann.
+    </p> <p>Bis heute steht er immer noch zu seiner Aussage und hat Ende 2015 sogar zusammen mit Sam Altman, dem CEO von Y Combinator, die sogenannte OpenAI gegründet. Dies ist ein Projekt zum Wohl der Allgemeinheit und beschäftigt sich mit der Frage, wie KI den Menschen behilflich sein kann.
+    </p> <p>Die Sorgen gehen allerdings noch weiter in die Vergangenheit. Der berühmte Wissenschaftler Stephan Hawking hat öfters seine Befürchtungen über die KI in der Öffentlichkeit betont. Er ist zwar der Meinung, dass die weitere Forschung dieser Technologie auch Vorteile mit sich bringen kann, erwähnt aber auch mögliche Nachteile, wie automatische Waffen, Wirtschaftsstörungen und Schwierigkeiten zwischen Menschen und Maschinen. “Kurz gesagt wird der Aufstieg der mächtigen KI entweder das Beste oder das Schlimmste sein, was der Menschheit jemals passieren wird”, ist seine Aussage.
+</p>
+<!--sorgt dafür, dass zwei Bilder nebeneinander stehen können-->
+<div class="row">
+  <div class="column">
+    <img src="https://big.assets.huffingtonpost.com/stephenhawkingquote33115.jpg" alt="Das Bild konnte nicht geladen werden" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://big.assets.huffingtonpost.com/elonmuskquote.jpg" alt="Das Bild konnte nicht geladen werden" style="width:100%">
+  </div>
+</div>
+<p>Weitere Kritiker der KI sind Autoritäten wie Bill Gates, Tim Berners-Lee und Steve Wozniak. Wozniaks Befürchtung wird von vielen weiteren geteilt und lautet wie folgt: “Wenn wir diese Geräte bauen, damit sie sich um alles für uns kümmern, werden sie schließlich schneller als wir denken und die langsamen Menschen loswerden wollen, um Unternehmen effizienter zu betreiben“.
+</p>
+</section>
+<section id="Zukunft">
+<h3>Die Zukunft mit künstlicher Intelligenz (Q8)</h3>
+<p>Obwohl die künstliche Intelligenz in den letzten Jahren durch viel Forschung beachtliche Fortschritte gemacht hat, steht sie immer noch am Anfang ihrer Entwicklung. Der Einsatz ist in vielen Bereichen wie dem autonomen Fahren oder der Medizin schwierig, da die künstliche Intelligenz zum heutigem Standpunkt noch nicht sicher genug und leicht manipulierbar ist. Des Weiteren muss man es schaffen, dass KI-Systeme ihre Prozesse erläutern, damit Menschen die Arbeits- und Denkweise so besser nachvollziehen können. Es gibt bereits unzählige Wissenschaftler, die in diesen Gebieten arbeiten und man erwartet, dass die Anzahl weiter ansteigt.
+  </p> <p>Wie die künstliche Intelligenz in der Zukunft ungefähr aussehen könnte, lässt sich anhand der sehr leistungsstarken <a href="#Software">Software</a> GPT-3 aus dem Hause Open-AI ablesen. Dabei wurde vor allem Bedeutung auf Sprache gelegt, sodass es schon heute sehr vorgeschritten im Themenfeld der Kommunikation und Erstellung von Texten ist. Dadurch kann es bei deutlich komplizierteren Diskussionen mitreden als je ein System zuvor. Natürlich hat GPT-3 noch Schwierigkeiten bei spezielleren Fragen eine passende Antwort zu finden, doch schon einige Generationen später kann man es vielleicht nicht mehr von Menschen unterscheiden. Dazu kommt, dass die Software vor einiger Zeit einen Text erstellt hat, bei dem sie darüber berichtet, dass in Zukunft viele Jobs von Maschinen ersetzt werden könnten und dass Menschen langsam nur noch handwerkliche Berufe ausüben sollten.
+  </p> <p>Die Zugangsberechtigung zu GPT-3 ist begrenzt, es wird also nicht als Open-Source für jeden zur Verfügung gestellt und Open-AI weigert sich auch, es an andere Unternehmen zu verkaufen. Zugriff auf die Software erhält man nur durch „Schnittstellen“, mit denen schädliche Anwendungen wie beispielsweise Spam oder Belästigung bekämpft werden können, indem man den Zugang sperrt. Um Haftung zu vermeiden, schildert Open-AI selbst, dass man zurzeit nicht über alle Folgen des Systems Bescheid wissen kann. Trotz dessen kooperiert nun Microsoft zusammen mit Open-AI und hat bereits ca. 1 Milliarde US-Dollar investiert und als Ausgleich den Zugang zum Quelltext erhalten.
+  </p> <p>Das große Problem von künstlicher Intelligenz ist, dass wir nicht wissen können, wie sie sich in Zukunft entwickelt und man lediglich spekulieren kann. Höchstwahrscheinlich, wird die Bedeutung von Sprachassistenten und anderen KI-Systemen aber immer mehr zunehmen. Des Weiteren wird sich die Art der Arbeit vermutlich verändern, da Maschinen uns bereits heute in vielen Gebieten im Hinblick auf die Effizienz überlegen sind. Vielleicht muss man später auch gar nicht lange nach qualitativ hochwertigen Informationen im Internet recherchieren und erhält die wichtigsten Daten sofort von einer Maschine.
+    </p> <p>Selbstverständlich handelt es sich bei GPT-3 nicht um starke künstliche Intelligenz, doch wirkt es so, als sei künstliche Intelligenz im Allgemeinen bereits so leistungsstark geworden, dass man sich langsam darum kümmern sollte, zu bestimmen was gesetzlich erlaubt und nicht erlaubt ist, um eine Katastrophe zu verhindern.
+    </p>
+<div class="center">
+<img src="https://d6fiz9tmzg8gn.cloudfront.net/wp-content/uploads/2020/07/GPT3-blog-banner.jpg" alt="Das Bild konnte nicht geladen werden" width="600px">
+  </div>
+  <br><br>
+  <p>
+    <em>Dieser Arikel wurde verfasst von Konstantin Hellmann</em>
+    </p>
+  <!--"Section", damit Begriffe hierher verlinkt werden-->
+<section id="Glossar">
+  <h3>Glossar</h3>
+  <ul>
+  <section id="Algorithmen">
+    <li> <strong>Algorithmen:</strong> "Rechenvorgang nach einem bestimmten sich wiederholenden Schema." <!--Verlinkung zu einer anderen Seite (Quelle)-->(<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)</li>
+    </section>
+    <section id="Churn-Prognose">
+      <li>
+        <strong>Churn-Prognose:</strong> "Ermöglicht Vorhersagen über die Kündigungswahrscheinlichkeit jedes einzelnen Kunden." (<a href="https://www.taod.de/insights/churn-prediction-kuendigerprognose-im-handel/#:~:text=Churn%20Prediction%20ist%20ein%20Prognoseverfahren,ergreifen%2C%20noch%20bevor%20Kunden%20abwandern." target="_blank">taod</a>)
+      </li>
+    </section>
+    <section id="Customer-Relationship-Managment">
+      <li>
+        <strong>Customer-Relationship-Managment</strong> "Gesamtheit der Strategien und Maßnahmen zur Herstellung und Aufrechterhaltung der Kundenbindung." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+      </li>
+    </section>
+    <section id="Cross-Selling">
+      <li>
+        <strong>Cross-Selling:</strong> "Verkauf von Produkten über bereits bestehende Kundenkontakte." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+      </li>
+    </section>
+    <section id="Deep-Learning">
+      <li>
+        <strong>Deep-Learning:</strong> "Deep Learning bezeichnet eine Methode des maschinellen Lernens, die künstliche neuronale Netze mit zahlreichen Zwischenschichten zwischen Eingabeschicht und Ausgabeschicht einsetzt und dadurch eine umfangreiche innere Struktur herausbildet." (<a href="https://de.wikipedia.org/wiki/Deep_Learning" target="_blank">wikipedia</a>)
+      </li>
+    </section>
+    <section id="Expertensystem">
+    <li> <strong>Expertensystem:</strong> "Programmsystem, das Daten über ein spezielles Gebiet speichert, daraus Schlussfolgerungen zieht und zu konkreten Problemen des Gebietes Lösungen anbietet." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+    </li>
+    </section>
+    <section id="Hardware">
+      <li>
+        <strong>Hardware:</strong> "Gesamtheit der technisch-physikalischen Teile einer Datenverarbeitungsanlage." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+      </li>
+    </section>
+    <section id="kognitiv">
+    <li> <strong>Kognitiv:</strong> "Das Wahrnehmen, Denken, Erkennen." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+    </li>
+    </section>
+    <section id="Logistik">
+      <li>
+        <strong>Logistik:</strong> "Die Sicherung der Verfügbarkeit des richtigen Gutes, in der richtigen Menge, im richtigen Zustand, am richtigen Ort, zur richtigen Zeit, für den richtigen Kunden und zu den richtigen Kosten." (<a href="https://www.projektmagazin.de/glossarterm/logistik#:~:text=Die%20traditionelle%20Definition%20von%20Logistik,richtigen%20Kosten%20zu%20sichern.%22." target="_blank">projektmagazin</a>)
+      </li>
+    </section>
+    <section id="Machine-Learning">
+    <li> <strong>Machine-Learning:</strong> "Maschinelles Lernen ist ein Oberbegriff für die „künstliche“ Generierung von Wissen aus Erfahrung." (<a href="https://de.wikipedia.org/wiki/Maschinelles_Lernen" target="_blank">wikipedia</a>)
+    </li>
+    </section>
+    <section id="Maleware">
+      <li>
+        <strong>Maleware:</strong> "Software, die in Computersysteme eindringen und dort Störungen oder Schäden verursachen kann." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+      </li>
+    </section>
+    <section id="Neuronale-Netze">
+    <li> <strong> Neuronale Netze: </strong> "Als neuronales Netz wird in den Neurowissenschaften eine beliebige Anzahl miteinander verbundener Neuronen bezeichnet, die als Teil eines Nervensystems einen Zusammenhang bilden, der einer bestimmten Funktion dienen soll." (<a href="https://de.wikipedia.org/wiki/Neuronales_Netz" target="_blank">wikipedia</a>)
+    </li>
+    </section>
+    <section id="Phonem">
+    <li> <strong> Phonem: </strong>"Kleinste bedeutungsunterscheidende sprachliche Einheit." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+    </li>
+    </section>
+    <section id="Sentiment-Analysis">
+      <li>
+        <strong>Sentiment-Analysis:</strong> "Bei der Sentiment-Analyse wird untersucht, welche Empfindungen gegenüber einer bestimmten Sache vorherrschen." (<a href="https://www.clickworker.de/2017/03/14/sentiment-analyse-was-ist-das/#:~:text=Das%20Wort%20Sentiment%20stammt%20aus,liegt%2C%20der%20kann%20Tonalit%C3%A4tsanalyse%20verwenden." target="_blank">clickworker</a>)
+      </li>
+    </section>
+    <section id="Skript">
+    <li> <strong>Skript:</strong> "Eine Liste von Befehlen, die von einem bestimmten Programm ausgeführt wird." (<a href="https://www.itwissen.info/script-Skript.html#:~:text=Ein%20Skript%20ist%20ein%20Manuskript,Generierung%20von%20Webseiten%20benutzt%20werden%20." target="_blank">ITWissen</a>)
+    </li>
+    </section>
+    <section id="Software">
+      <li>
+        <strong>Software:</strong> "Alle nicht technisch-physikalischen Funktionsbestandteile eines Computers." (<a href="https://languages.oup.com/google-dictionary-de/" target="_blank">OxfordLanguages</a>)
+     </li>
+    </section>
+    <section id="Up-Selling">
+      <li>
+        <strong>Up-Selling:</strong> "Up-Selling bezeichnet im Vertrieb das Bestreben eines Anbieters, dem Kunden statt einer günstigen Variante im nächsten Schritt ein höherwertiges Produkt oder eine höherwertige Dienstleistung anzubieten." (<a href="https://de.wikipedia.org/wiki/Upselling" target="_blank">wikipedia</a>)
+      </li>
+    </section>
+  </ul>
+    </section>
+  <section id="Quellenangaben">
+  <h3>Quellenangaben</h3>
+  <!-- Damit Texte nebeneinander stehen können-->
+<div class="row">
+  <div class="column">
+    <h4>Textquellen</h4>
+  <ul>
+    <li>
+      <!-- Verlinkung auf andere Website. "Target=_blank", sorgt dafür, dass ein neuer Tab geöffnet wird-->
+      <strong>Q1:</strong> <a href="https://www.bmbf.de/de/kuenstliche-intelligenz-5965.html" target="_blank">Bundesministerium für Bildung und Forschung</a>
+    </li>
+    <li>
+      <strong>Q2:</strong> <a href="https://weissenberg-solutions.de/was-ist-kuenstliche-intelligenz/" target="_blank">Weissenberg-Solutions</a>
+    </li>
+    <li>
+      <strong>Q3:</strong> <a href="https://www.wfb-bremen.de/de/page/stories/digitalisierung-industrie40/was-ist-kuenstliche-intelligenz-definition-ki" target="_blank">Wirtschaftsförderung-Bremen-GmbH</a>
+    </li>
+    <li>
+      <strong>Q4:</strong> <a href="https://www.bosch.com/de/stories/geschichte-der-kuenstlichen-intelligenz/" target="_blank">Bosch</a>
+    </li>
+    <li>
+      <strong>Q5:</strong> <a href="https://www.genius-community.com/allgemein/wie-funktioniert-eigentlich-kuenstliche-intelligenz-7867/#:~:text=K%C3%BCnstliche%20Intelligenz%20funktioniert%20mit%20%E2%80%9Ek%C3%BCnstlichen,die%20Nervenzellen%20im%20menschlichen%20K%C3%B6rper.&text=Auf%20diese%20Weise%20verarbeitet%20das,dir%20zum%20Beispiel%20das%20Lernen." target="_blank">Genius-Community</a>
+    </li>
+    <li>
+      <strong>Q6:</strong> <a href="https://datasolut.com/anwendungsgebiete-von-kuenstlicher-intelligenz/" target="_blank">Datasolut</a>
+    </li>
+    <li>
+      <strong>Q7:</strong> <a href="https://www.infopulse.com/de/blog/4-probleme-der-kuenstlichen-intelligenz-die-immer-noch-geloest-werden-muessen/" target="_blank">Infopulse</a>
+    </li>
+    <li>
+      <strong>Q8:</strong> <a href="https://www.weser-kurier.de/landkreis-diepholz/datenkolumne-kuenstliche-intelligenz-heute-und-in-zukunft-doc7e435f93t2utgz8g88z" target="_blank">Weser-Kurier</a>
+    </li>
+    </ul>
+  </div>
+  <div class="column">
+    <h4>Bild- und Videoquellen
+      <ul>
+        <li>
+          <strong>Q9:</strong> <a href="https://static1.bmbfcluster.de/1/0/8/6/9_c27c911943868aa/10869abg_9ddaa149753ea1b.jpg" target="_blank">Roboter</a>
+        </li>
+        <li>
+          <strong>Q10:</strong> <a href="https://www.youtube.com/embed/KF6sLCeBj0s" target="_blank">Deep Blue</a>
+        </li>
+        <li>
+          <strong>Q11:</strong> <a href="https://images.techhive.com/images/article/2015/09/ibm-watson-100616825-large.jpg" target="_blank">Watson</a>
+        </li>
+        <li>
+          <strong>Q12:</strong> <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Neural_network.svg/1280px-Neural_network.svg.png" target="_blank">Neuronale Netze</a>
+        </li>
+        <li>
+          <strong>Q13:</strong> <a href="https://fscl01.fonpit.de/userfiles/7640001/image/Amazon-Echo/AndroidPIT-Amazon-Echo-Dot-Light.jpg" target="_blank">Echo-Dot</a>
+        </li>
+        <li>
+          <strong>Q14:</strong> <a href="https://miro.medium.com/max/4096/0*W2lJy4pYnxBVdKEK" target="_blank">Alpha-Go</a>
+        </li>
+        <li>
+        <strong>Q15:</strong> <a href="https://i.computer-bild.de/imgs/6/3/7/5/8/7/7/Amazon-Prime-Video-im-Test-658x370-639fe1a81bd4b857.jpg" target="_blank">Prime-Video</a>
+      </li>
+      <li>
+        <strong>Q16:</strong> <a href="https://www.youtube.com/embed/15iIV1Lff-M" target="_blank">Bird´s-Eye View</a>
+      </li>
+      <li>
+        <strong>Q17:</strong> <a href="https://img.welt.de/img/wirtschaft/mobile145015198/7331353487-ci16x9-w1200/2015-Daimler-AG-Alle-Rechte-vorbehalt-5.jpg" target="_blank">Autonomes Fahren</a>
+      </li>
+      <li>
+        <strong>Q18:</strong> <a href="https://upload.wikimedia.org/wikipedia/commons/4/4d/Amazon_Go_in_Seattle%2C_December_2016.jpg" target="_blank">Amazon-Go</a>
+      </li>
+      <li>
+        <strong>Q19:</strong> <a href="https://www.infopulse.com/files/images/pic1.jpg" target="_blank">Denkweise KI</a>
+      </li>
+      <li>
+        <strong>Q20:</strong> <a href="https://big.assets.huffingtonpost.com/stephenhawkingquote33115.jpg" target="_blank">Stephan Hawking</a>
+      </li>
+      <li>
+        <strong>Q21:</strong> <a href="https://big.assets.huffingtonpost.com/elonmuskquote.jpg" target="_blank">Elon Musk</a>
+      </li>
+      <li>
+        <strong>Q22:</strong> <a href="https://d6fiz9tmzg8gn.cloudfront.net/wp-content/uploads/2020/07/GPT3-blog-banner.jpg" target="_blank">GPT-3</a>
+      </li>
+  </div>
+  </section>
+ </body>
+</html>

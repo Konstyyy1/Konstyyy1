@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--Navigationsleiste-->
+    <div id="mySidenav" class="sidenav">
+      <!--Ermöglicht, dass man die Navigationsleiste mit dem "x" wieder schließen kann-->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Startseite.html">Home</a>
+  <a href="Künstliche_Intelligenz.html">Künstliche Intelligenz</a>
+  <a href="Automatisierung-von-Arbeit.html">Automatisierung von Arbeit</a>
+  <a href="Datensicherheit.html">Datensicherheit</a>
+  <a href="Probleme-von-Google.html">Probleme von Google</a>
+</div>
+<!--Ändert die Größe der Drei Striche und "Open"-->
+    <div class="open">
+      <!--Wenn man die drei Striche auswählt, öffnet sich die Navigationsleiste-->
+<span onclick="openNav()">☰ Open</span>
+    </div>
+    <!--Funktion zum öffnen und schliessen der Navigationsleiste-->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<!--Eine Überschrift der zweiten Kategorie (zweite größe)-->
+<h2>Automatisierung von Arbeit</h2>
+<!--Einleitung ("MyClass2 ändert lediglich Größe")-->
+<p class="myClass2">Eine Ursache die zur Angst vor der Automatisierung für ist z.B das autonome fahren. Wenn Autos, Busse und LKW’s in der Lage sind, eigenständig und sicherer zu fahren, als das Menschen können, was würde dann aus den vielen Taxi- Bus- und LKW-Fahrern, die durch den Transport von Menschen und Gütern ihren Lebensunterhalt verdienen? Zudem wären auch noch die Kundenberater und Servicearbeiter, die aktuell in Callcentern arbeiten gefährdet. Sie werden alle nicht mehr gebraucht, sobald Chat-Bots erst einmal voll entwickelt sind und die Anliegen von Anrufen perfekt verstehen.</p>
+<!--Navigation zu Unterthemen-->
+<div id="navigation">
+  <!--Listenelement-->
+  <ul class="myClass2">
+    <!--Verlinkung zu den unterschiedlichen "sections"-->
+    <a href="#Pro">
+      <li>Pro</li>
+    </a>
+    <a href="#Contra">
+      <li>Contra</li>
+    </a>
+    <a href="#Quellenangaben">
+      <li>Quellenangaben</li>
+    </a>
+  </div>
+    <br>
+<!--Bild soll in die Mitte positioniert werden-->
+<center>
+  <!--Einfügung von einem Bild (alt=Text wenn das Bild nicht geladen werden konnte ; width=Breite)-->
+  <img src="https://assets.t3n.sc/news/wp-content/uploads/2021/04/Automatisierung-Autobranche.jpg?auto=format%2Ccompress&fit=crop&h=350&ixlib=php-3.3.1&q=75&w=620" alt="Das Bild konnte nicht geladen werden" width="600px">
+</center>
+<!--"Section" ist dafür dar, damit die Navigationsleiste weiß, worauf sie verlinken soll (wo die ID zugewiesen ist)-->
+<section id="Pro">
+<!--Überschrift dritten Grades (drittgrößte)-->
+<h3>Pro</h3>
+<!--geordnete Liste-->
+<ol>
+  <!--Aufzählung-->
+  <li>
+    Roboter sind immer leistungsfähig, arbeiten auf Hochdruck zu gleichbleibend hoher Qualität, da sie weder Schlaf noch eine Pause benötigen. Das unternehmen profitiert durch die mechanischen Arbeiter und kann in größeren Chargen produzieren. Dies soll aber nicht bedeuten, dass Menschen ihre Arbeitsplätze verlieren. Sie unterstützen vielmehr sehr repetitive Aufgaben, was bedeutet, dass die Arbeitskräfte eher für kreativeres und wettbewerbsfähigeres Denken eingesetzt werden kann. Durch die gesteigerte Produktivität in verschiedenen Bereichen führt zu einem langanhaltenden positiven ROI (Return on Investment).
+  </li>
+  <li>
+    Durch das einsetzen von Robotern sparen sie nicht nur Geld sondern durch das verringern der Arbeitsbelastung, beschleunigen sich einige Geschäftsprozesse, was natürlich auch Zeit spart. Dank Robotern sin Prozesse und Arbeitsschritte schneller als je zuvor.
+  </li>
+  <li>
+    Die Produktion wird dadurch agiler und flexibler. Aufgrund dessen können sie auch kleinere Losgrößen produzieren. Anhand des TracePen und der Wandelbots-Software verstärkt sich dieser Effekt, da sie ihren Roboter selbst unterrichten können, ohne dass sie auf externe Experten zurückgreifen müssen. In wenigen Minuten können sie ihrem Roboter verschiedene Aufgaben beibringen und somit ihre Produktion schneller wieder aufnehmen, indem sie seine Ausfallzeit drastisch reduzieren.
+  </li>
+  <li>
+    Die OEE(Overall Equipment Effectiveness) wird zusätzlich durch Automatisierungshelfer erhöht, d.h. Ein Mehrwert für ihre Anlagen in Bezug auf die Qualität, Verfügbarkeit und Leistung entsteht. Die Programmierung von Robotern sieht so aus, dass sie immer wieder die gleiche Aufgabe ausführen und dabei im Laufe der Zeit nur einen Bruchteil der Qualität verlieren.
+  </li>
+  <li>
+    Kollaborative Roboter (Cobots) wurden nun auch für KMUs bedeutsamer. Sie kosten ein vielfaches weniger als vor einigen Jahren und sind einfacher zu handhaben. Zudem sind sie leichter zu belehren und können eine Vielzahl von Anwendungen eingesetzt werden.
+  </li>
+  <li>
+    Roboter können außerdem gefährlichere oder körperlich beanspruchendere Arbeiten erledigen. Ein Beispiel wären z.B. in der Pharmazie bei der Arbeit mit radioaktiven Stoffen oder auch bei der Arbeit mit Chemikalien.
+  </li>
+</ol>
+</section>
+<section id="Contra">
+<h3>Contra</h3>
+<ol>
+  <li>
+    Anschaffungskosten von Robotern sind hoch. Neben den Betriebskosten entsteht ein großer Teil der kosten durch die Neuprogrammierung und Anpassung des Roboterpfades. Wiederkehrende Kosten sind auch die Programmierungskosten, da der Roboter für jeden geringfügig geänderten Arbeitsschritt angepasst werden muss. Durch den Einsatz von Wandelmots-Softwares können diese Kosten bis zu 90% gesenkt werden. In den nur die App verwendet wird, kann ein geteachter Pfad angepasst werden. Ein Produktionsausfall, welcher durch Maschine verursacht wurde, kann auf den Bruchteil minimiert werden. Zum unterrichten ist kein externes Wissen erforderlich und muss auch nicht bezahlt werden. Mit dem TracePen ist solch eine Neuprogrammierung etwa 10 mal schneller als die übliche Programmierung, was ebenfalls Betriebskosten spart.
+  </li>
+  <li>
+    Nur von wenigen Experten können Roboter (um)programmiert werden, da im Durchschnitt jeder Programmierer nur mit 2 Programmiersprachen vertraut, was mit mehr Kosten verbunden ist, wenn Ihre Firma Roboter von mehr als einem Typ besitzt.
+  </li>
+  <li>
+    Jeder Roboter hat ein Limit d.h. Nicht jeder Roboter kann für jede Art von Anwendung eingesetzt werden. Wenn der Beginn einer Automatisierung vorliegen sollte, dann informieren sie sich vorher über die notwendigen Vorraussetzungen.
+  </li>
+</ol>
+</section>
+<br><br>
+<!--Durch "em" wird Text kursiv geschrieben"-->
+<em>Dieser Artikel wurde verfasst von Batuhan Aykut</em>
+<secion id="Quellenangaben">
+<h3>Quellenangaben</h3>
+<!--sorgt dafür, dass zwei Bilder nebeneinander stehen können-->
+<div class="row">
+  <div class="column">
+    <!--Überschrift vierten Grades (viertgrößte)-->
+    <h4>Textquellen</h4>
+    <!--ungeordnete Liste-->
+    <ul>
+      <li>"unbekannt"</li>
+    </ul>
+</div>
+<div class="column">
+    <h4>Bildquellen
+      <ul>
+        <!-- Verlinkung auf andere Website. "Target=_blank", sorgt dafür, dass ein neuer Tab geöffnet wird-->
+        <li><a href="https://t3n.de/news/studie-deutsche-unterschaetzen-automatisierung-arbeit-1375228/" target="_blank">t3n</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</body>
+</html>

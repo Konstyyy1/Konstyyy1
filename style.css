@@ -1,0 +1,143 @@
+/*Alle EInstellungen werden auf alle Inhalte übertragen*/
+body {
+  /*Textfarbe*/
+  color: #BDBCBC;
+  /*Hintergrundfarbe*/
+  background-color: #1D1C1D;
+  /*Schriftart*/
+  font-family: Arial;
+  /*Position des Textes*/
+  text-align: left;
+  /*Breite*/
+  width: 800px ;
+  /*Position*/
+  margin: auto ;
+}
+
+p {
+  /*Schriftgröße*/
+  font-size:12pt;
+}
+
+li {
+  /*Abstand*/
+  padding-bottom: 6px;
+  /*Text-Ausrichtung*/
+  text-align: left;
+
+}
+/*erste Überschrift*/
+h1 {
+  font-size: 48pt;
+  text-align: center ;
+
+}
+/*zweite Überschrift*/
+h2 {
+  padding-top: 50px;
+  font-size: 36pt;
+  text-align: center ;
+}
+/*dritte Überschrift*/
+h3 {
+  padding-top: 25px;
+  font-size: 24pt;
+  }
+  /*verschiedene Klassen*/
+.myClass1 {
+  text-align: center;
+  font-size: 16pt ;
+}
+.myClass2  {
+  text-align: center;
+  font-size: 14pt ;
+}
+/*IDs*/
+#navigation a {
+color: #BDBCBC;
+text-align: center;
+font-size: 14pt ;
+}
+/*Wenn man mit dem Mauszeiger über die Schrift geht, soll sie weiß werden*/
+#navigation a:hover {
+color: white;
+}
+.left {
+width: 1600px;
+text-align: left;
+  }
+.center {
+text-align: center;
+  }
+  /*Position des Elements in einer Zeile*/
+.row {
+  display: flex;
+}
+/*Position des Elements in einer Spalte*/
+.column {
+  flex: 50%;
+  padding: 5px;
+  }
+/*Anfang der CSS für Navigationsleiste*/
+/*Position, Größe,... der Navigationsleiste*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  /*Aussehen der Navigationsleiste*/
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+/*Wenn man mit dem Mauszeiger über die Schrift geht, ändert sich die Farbe (zu weiß)*/
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/*bestimmt die Position des Knopfes zum Schließen der Navigationsleiste*/
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+/*bestimmt u.a. Größe der Navigationsleiste auf unterschiedlichen Geräten*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*Ende der CSS für Navigationsleiste*/
+.open {
+font-size: 36px;
+  }
+
+  .width {
+    width: 1600px;
+    text-align: center;
+    margin: auto;
+    }
+/*Breite soll auf 800px begrenzt werden*/
+  .begrenzt {
+    width: 800px;
+    /*Positionierung automatisch*/
+    margin: auto;
+    text-align: left;
+    }
